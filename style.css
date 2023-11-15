@@ -1,0 +1,41 @@
+h1 {
+    font-size: 2em; 
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+.body {
+    background-color: rgb(29, 198, 162);
+}
+
+footer {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.row {
+    padding: 0%;
+    margin: auto;
+}
+
+/* Mobile screen */
+@media (max-width: 500px) {
+    .body { background-color: #6f42c1; }
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width:768px) {
+    .body { background-color: #fd7e14; } 
+}
+
+/* Large screens */
+@media (min-width: 1500px) {
+    .body {
+        background-color: #20c997;
+        font-size: larger;
+    }
+}
